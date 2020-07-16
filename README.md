@@ -1,3 +1,5 @@
+<a href="https://salicylic.netlify.app/"><img src="https://github.com/inductor69/inductor69/photo.png" width="100%"></a>
+
 ### Hi there 👋
 
 1st Year Undergraduate at IIT Delhi 🔭 pursuing a Major degree in Production and Industrial Engineering in the Mechanical department.🌱</br>
