@@ -1,4 +1,4 @@
-<a href="https://salicylic.netlify.app/"><img src="https://github.com/inductor69/inductor69/photo.png" width="100%"></a>
+<a href="https://salicylic.netlify.app/"><img src="https://github.com/inductor69/inductor69/blob/master/photo.png" width="100%"></a>
 
 ### Hi there 👋
 
