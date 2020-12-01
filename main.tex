@@ -1,0 +1,213 @@
+%-------------------------
+% Resume in Latex
+% Author : Aditya K.
+% Github: https://github.com/inductor69
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+
+
+\begin{center}
+    \textbf{\Huge \scshape Aditya Kumar} \\ \vspace{5pt}
+    \small 9650093751 $|$ \href{mailto:me2190862@iitd.ac.in}{\underline{me2190862@iitd.ac.in}} $|$ 
+    \href{https://linkedin.com/in/aditya-kumar-inductor}{\underline{LinkedIn}} $|$
+    \href{https://github.com/inductor69}{\underline{Github}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Indian Institute of Technology, Delhi}{New Delhi, IN}
+      {Bachelor of Technology in Production and Industrial Engineering, Minor in Entrepreneurship}{July 2019 -- Sep 2023}
+    \resumeSubheading
+      {PMS Public School}{Moradabad, IN}
+      {CLass XII}{April 2018 -- April 2019}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Web Executive}{Oct. 2020 -- Present}
+      {BSW, IIT Delhi}{New Delhi, IN}
+      \resumeItemListStart
+        \resumeItem{Developed and Maintaining a PHP based Progressive Web App for Boards of Student Welfare, IITD}
+        \resumeItem{Explored technical implementation of the software's user interface (UI)}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {App Developer}{June 2020 -- Aug. 2020}
+      {Southwestern University}{Georgetown, TX}
+      \resumeItemListStart
+        \resumeItem{Communicate with managers to set up campus computers used on campus}
+        \resumeItem{Assess and troubleshoot computer problems brought by students, faculty and staff}
+        \resumeItem{Maintain upkeep of computers, classroom equipment, and 200 printers across campus}
+    \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Portfolio Web App} $|$ \emph{JavaScript, Node.js, React, HTML/CSS, GraphQL}}{Nov.2020}
+          \resumeItemListStart
+            \resumeItem{Developed a full-stack web application using Node.js serving a MailChimp API with React as the frontend}
+            \resumeItem{Implemented Newsletter using MailChimp API for subscription.}
+            \resumeItem{Using GraphQL Queries to fetch data}
+          \resumeItemListEnd
+     \resumeProjectHeading
+          {\textbf{Meditation App} $|$ \emph{Flutter, Java, TensorFlow, Google Colab}}{Aug 2020}
+          \resumeItemListStart
+            \resumeItem{Developed an All-in-One Meditation app using Flutter Framework during Smart India Hackathon 2020}
+            \resumeItem{Implemented Pose Estimation Algorithm for Yoga Poses using TensorFlow}
+            \resumeItem{Integrated Tensorflow and Flutter to predict Yoga Pose with 90+\% accuracy}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Algorithms Handbook App} $|$ \emph{Flutter, Java, Git}}{July 2020}
+          \resumeItemListStart
+            \resumeItem{Developed an Algorithm Visualiser app using Flutter Framework}
+            \resumeItem{Implemented almost every algorithm in C++ using external resources }
+            \resumeItem{Published app to Playstore gaining 1K+ downloads and an average 4.5/5-star review}
+          \resumeItemListEnd
+     \resumeProjectHeading
+          {\textbf{NEWS App} $|$ \emph{Kotlin, Java, Git, REST API}}{Aug 2020}
+          \resumeItemListStart
+            \resumeItem{Developed a Multiplatform NEWS App in Koltin consuming API from NEWS API}
+            \resumeItem{Implemented using MVVM with Clean Architecture}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+\section{Publications}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{DS IN JS} $|$ \emph{Data Structure and Algorithms in JavaScript}}{Nov.2020}
+          \resumeItemListStart
+            \resumeItem{Wrote and Published an Ebook on Data Structure and Algorithms in JavaScript}
+            \resumeItem{Sold Multiple Copies Worldwide using Amazon}
+          \resumeItemListEnd
+            \resumeSubHeadingListEnd
+
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{:Python, Java, JavaScript, C++, Kotlin,  HTML/CSS, PHP} \\
+     \textbf{Frameworks}{: React, Node.js, Flutter, JUnit, WordPress, BootStrap, Tailwind CSS} \\
+     \textbf{Developer Tools}{: Git, Docker, Google Cloud Platform, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse} \\
+     \textbf{Libraries}{: pandas, NumPy, Matplotlib}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+
+  
+  
+\end{document}
