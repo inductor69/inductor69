@@ -11,7 +11,7 @@ I'm in the early days of my journey to become a successful entrepreneur and Java
 ![Aditya's github stats](https://github-readme-stats.vercel.app/api?username=inductor69&theme=material-palenight&show_icons=true)</p>
 </br>
 - 🎉 Let's connect on [LinkedIn](https://www.linkedin.com/in/aditya-kumar-b99b1519b/)
-- 🎉 My [Resume](https://github.com/inductor69/inductor69/blob/master/Aditya's_Resume.pdf)
+- 🎉 My [Resume](https://github.com/inductor69/inductor69/blob/master/Aditya_s_Resume.pdf)
 
 <p align="center">
  <img src="https://raw.githubusercontent.com/8bithemant/8bithemant/master/svg/dev/languages/html.svg" alt="Twitter" style="vertical-align:top; margin:4px">
